@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music-player-card{
+    background-color: pink;
+    width: 300px;
+    padding: 20px 30px;
+    
+}
+.circle{
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  line-height: 20px;
+  padding: 13px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(255,26,26,0.22);
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.tumbnail-img{
+    border-radius: 50%;
+    width: 40%;
+    border: 6px solid white;
+}
+.center{
+    text-align: center;
+}
+.input-range{
+    width: 100%;
+    margin:40px 0px;
+    -webkit-appearance: none;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.input-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255,26,26,0.22);     
+}
+.pink-circle{
+    border-radius: 50%;
+    width: 20px;
+    line-height: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: darkblue;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls .circle{
+    margin: 20px;
+   
+}
+.controls{
+    margin-top: 40px;
+}
+i{
+    color: pink;
+    font-size: 13px;
+}
